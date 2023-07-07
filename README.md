@@ -15,7 +15,7 @@ Clone the project
   git clone https://github.com/aryangoenka26/AZ-ToDo-Chrome-Ext
 ```
 
-Start the server
+Start the extension
 
 - Go to manage extensions in Chrome browser.
 - Turn on "Developer Mode".
