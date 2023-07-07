@@ -1,0 +1,41 @@
+{
+  "manifest_version": 3,
+  "name": "AZ Todo Problems",
+  "version": "0.1",
+  "author": "Aryan Goenka",
+  "description": "This extension will help you to create a todo list for your problems.",
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.learning.algozenith.com/problems/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "assets/*"
+      ],
+      "matches":["<all_urls>"]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "assets/ext-icon.png",
+      "24": "assets/ext-icon.png",
+      "32": "assets/ext-icon.png"
+    },
+    "default_title": "AZ Todo Problems",
+    "default_popup": "popup.html"
+  }
+}
