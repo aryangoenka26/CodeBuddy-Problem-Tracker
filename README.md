@@ -1,4 +1,4 @@
-## AlgoZenith To - Do List Chrome Extension
+## CodeBuddy Problem Tracker Chrome Extension
 This Chrome extension adds features to bookmark certain questions, and add them to a To-Do List, which is avialable even outside the algozenith website.
 
 ## Features
@@ -23,4 +23,3 @@ Start the extension
 
 Voila!\
 Now, you can use the extension to bookmark and manage the questions you solve!
-
